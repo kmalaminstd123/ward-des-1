@@ -1,0 +1,167 @@
+
+.banner{
+    margin-top: 120px;
+}
+
+.banner .inner-banner{
+    position: relative;
+}
+
+.inner-banner .banner-circle-image{
+    height: 791px;
+    width: 791px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../image/download.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
+}
+
+.u-shape-1{
+    position: absolute;
+    height: 306px;
+    width: 306px;
+    border: none;
+    color: aqua;
+    top: -6%;
+    right: 20%;
+    z-index: 3;
+}
+
+.u-shape-3{
+    background-color: #31D4CD;
+    height: 245px;
+    width: 245px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    z-index: 8;
+}
+
+.u-shape-4{
+    position: absolute;
+    bottom: -10%;
+    left: 23%;
+}
+
+.u-container{
+    width: 634px;
+    min-height: 454px;
+    background-image: none;
+    height: auto;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    margin: -270px 0 60px auto;
+    background-color: #30d4cc;
+    position: relative;
+    z-index: 10;
+    padding: 60px 50px 50px;
+}
+
+.u-container h1{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.u-container-button{
+    color: #30d4cc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-image: none;
+    font-weight: 700;
+    margin: 32px auto 0 0;
+    padding: 12px 54px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.m-prog-card{
+    border: 1px solid #515151;
+}
+
+.m-prog-card:hover{
+    box-shadow: 0 1rem 3rem rgba(0 ,0, 0, .175);;
+}
+
+@media screen and (max-width: 992px){
+    .inner-banner .banner-circle-image{
+        height: 650px;
+        width: 650px;
+    }
+
+    .u-shape-1{
+        top: -6%;
+        right: 15%;
+        height: 250px;
+        width: 250px;
+    }
+
+    .u-shape-3{
+        bottom: 47%;
+        left: -6%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .inner-banner .banner-circle-image{
+        height: 450px;
+        width: 450px;
+    }
+
+    .u-container{
+        width: 436px;
+        min-height: 513px;
+        margin-top: 148px;
+    }
+
+    .u-shape-4 svg{
+        height: 100px;
+        width: 100%;
+    }
+
+    /* .r-m-t{
+        margin-top: 40px;
+    } */
+
+    .u-container h1{
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .inner-banner .banner-circle-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .u-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .u-shape-1 {
+        top: -6%;
+        right: 0%;
+    }
+
+    /* .banner-circle-image{
+        height: 300px;
+        width: 300px;
+    } */
+
+    .u-shape-3 {
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+}
